@@ -4,3 +4,7 @@
 		setTimeout(submit, 3000 );
 	};
  });
+ 
+ // ^ - this not work now, work only in old verion Opera browser 11-12
+ // setTimeout('document.getElementById("save_button").click();', 300); // <- this be better but only in opera 11-12
+ 
